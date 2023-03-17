@@ -1,0 +1,219 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Modern Menu by Modern Media</title>
+  <meta name="description" content="Examples from my model-viewer course">
+  <meta name="author" content="Nik Lever">
+
+  <meta property="og:title" content="Model-viewer Course">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://niklever.com/courses/model-viewer">
+  <meta property="og:description" content="Examples from my model-viewer course">
+  <meta property="og:image" content="image.png">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32 " href="../assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="../assets/favicon/site.webmanifest">
+
+  <link rel="stylesheet" href="../css/styles.css">
+  
+  <!-- Bootstrap core CSS -->
+  <link href="../libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="../css/shop.css" rel="stylesheet">
+
+  <style>
+    header {
+        text-align: center;
+      margin: 0 auto;
+      margin-bottom: 25px;
+        max-width: 800px;
+      }
+    
+    body {
+        margin: 25px 0;
+      }
+    
+      model-viewer{
+          width: 100%;
+          height: 200px;
+          margin: 0 auto;
+      }
+  </style>
+</head>
+
+<body>
+     <!-- Import the component -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="../assets/ar-shop/favicon.ico"/> Modernmenu.com</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+   <header>
+      <h1>Welcome to our Modern Menu!</h1>
+      <p>   DISCLAIMER: Please note that the objects portrayed through our augmented reality features may not be accurately represented in real-life size.
+        The sizing and proportions of virtual objects may vary based on your device's screen size and other factors. We strive to provide
+        the most realistic and immersive experience possible, but please keep in mind that virtual objects may not be to scale.</p>
+    </header>
+  
+      <!-- /.col-lg-3 -->
+  
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <model-viewer src="../assets/ar-shop/urus.glb" alt="A 3D model of a chair" 
+                    poster="../assets/ar-shop/urus.jpg.jpg" reveal="manual"
+                    ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral"
+                    camera-controls></model-viewer>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Cyber Truck</a>
+                </h4>
+                <h5>$84.99</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <model-viewer src="../assets/ar-shop/vans.glb" alt="A 3D model of a chair" ar 
+                poster="../assets/ar-shop/vans.jpg" reveal="manual"
+                ar-modes="webxr scene-viewer quick-look" environment-image="neutral" 
+                camera-controls></model-viewer>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Vans</a>
+                </h4>
+                <h5>$24.99</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <model-viewer src="../assets/ar-shop/modernhouse.glb" alt="A 3D model of a chair" ar 
+                poster="../assets/ar-shop/modernhouse.jpg" reveal="manual"
+                ar-modes="webxr scene-viewer quick-look" environment-image="neutral" 
+                camera-controls></model-viewer>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#"> Modern House</a>
+                </h4>
+                <h5>$24.99</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <model-viewer src="../assets/ar-shop/bagel.glb" alt="A 3D model of a chair" ar 
+                poster="../assets/ar-shop/bagel1.jpg" reveal="manual"
+                ar-modes="webxr scene-viewer quick-look" environment-image="neutral" 
+                camera-controls></model-viewer>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Bagel</a>
+                </h4>
+                <h5>$24.99</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <model-viewer src="../assets/ar-shop/chair5.glb" alt="A 3D model of a chair" ar
+                poster="../assets/ar-shop/chair5.jpg" reveal="manual" 
+                ar-modes="webxr scene-viewer quick-look" environment-image="neutral" 
+                camera-controls></model-viewer>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Item Five</a>
+                </h4>
+                <h5>$24.99</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <model-viewer src="../assets/ar-shop/chair6.glb" alt="A 3D model of a chair" ar 
+                poster="../assets/ar-shop/chair6.jpg" reveal="manual"
+                ar-modes="webxr scene-viewer quick-look" environment-image="neutral" 
+                camera-controls></model-viewer>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Item Six</a>
+                </h4>
+                <h5>$24.99</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- /.row -->
+
+      </div>
+      <!-- /.col-lg-9 -->
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5864824416621318"
+     crossorigin="anonymous"></script>
+
+<!-- 3D Menu -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5864824416621318"
+     data-ad-slot="7725201294"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../libs/jquery/jquery.min.js"></script>
+  <script src="../libs/bootstrap/js/bootstrap.bundle.js"></script>
+  <script>
+    const modelViewers = document.querySelectorAll("model-viewer");
+
+    modelViewers.forEach(mv => {
+        mv.addEventListener('click', () => {
+            mv.dismissPoster();
+        })
+    })
+  </script>
+</body>
+
+</html>
