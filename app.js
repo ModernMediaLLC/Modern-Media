@@ -10,7 +10,6 @@ const currentFrame = (index) => `./header/${(index + 1).toString()}.jpg`;
 const images = [];
 let ball = { frame: 0 };
 
-
 for (let i = 0; i < frameCount; i++) {
   const img = new Image();
   img.src = currentFrame(i);
