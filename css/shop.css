@@ -14,3 +14,8 @@ body {
     float: right;
     right: 5px;
 }
+
+p {
+  font-weight: bold;
+}
+
