@@ -15,24 +15,6 @@
     object-fit: cover;
   }
   
-  .details {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-  }
-  
-  .ball-text {
-    position: fixed;
-    z-index: 2;
-    color: white;
-    font-size: 5rem;
-    right: 20%;
-    bottom: 40%;
-    transform: translate(-20%, -40%);
-  }
-  
 @media screen and (max-width: 1024px) {
   .ball-text {
     font-size: 2rem;
