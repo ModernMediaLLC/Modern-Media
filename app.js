@@ -3,7 +3,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 const context = canvas.getContext("2d");
-const frameCount = 179;
+const frameCount = 180;
 
 const currentFrame = (index) => `./header/${(index + 1).toString()}.jpg`;
 
