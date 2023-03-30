@@ -19,3 +19,22 @@ p {
   font-weight: bold;
 }
 
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    /* CSS rules for header on mobile devices */
+  }
+  
+  main {
+    width: 100%;
+    /* CSS rules for main content on mobile devices */
+  }
+  
+  footer {
+    /* CSS rules for footer on mobile devices */
+  }
+}
