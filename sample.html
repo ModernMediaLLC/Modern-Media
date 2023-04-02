@@ -31,18 +31,24 @@
 
   <style>
     
-     header {
-        text-align: center;
-      margin: 0 25px;
-      margin-bottom: 0;
-        max-width: 1000px;
-      }
-    
-  img {
+     .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+img {
   max-width: 100%;
   height: auto;
-  display: block;
-  margin: 25px auto;
+  margin-bottom: 20px;
 }
     
     body {
@@ -55,9 +61,6 @@
           margin: 0 0;
       }
   </style>
-  
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5864824416621318"
-     crossorigin="anonymous"></script>
   
 </head>
 
@@ -88,14 +91,15 @@
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
   <!-- Page Content -->
-   <header>
+   <div class="container">
+     
       <p>   DISCLAIMER: Please note that the objects portrayed through our augmented reality features may not be accurately represented in real-life size.
         The sizing and proportions of virtual objects may vary based on your device's screen size and other factors. We strive to provide
         the most realistic and immersive experience possible, but please keep in mind that virtual objects may not be to scale.</p>
      
      <img src="assets/controls for 3D Menu .png" alt="Controls for 3D Menu" width="1000" height="300" />
      
-    </header>
+   </div>
   
       <!-- /.col-lg-3 -->
   
