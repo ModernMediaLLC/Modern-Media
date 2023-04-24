@@ -1,4 +1,4 @@
-var MAX_MODELS = 3;
+var MAX_MODELS = 1;
 var numModelsPreviewed = 0;
 
 function previewModel() {
